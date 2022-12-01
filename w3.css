@@ -1330,8 +1330,8 @@ html {
   }
   .w3-white,
   .w3-hover-white:hover {
-    color: #000 !important;
-    background-color: #fff !important;
+    color: white !important;
+    background-color: black !important;
   }
   .w3-black,
   .w3-hover-black:hover {
