@@ -1349,8 +1349,8 @@ html {
   .w3-hover-light-grey:hover,
   .w3-light-gray,
   .w3-hover-light-gray:hover {
-    color: #000 !important;
-    background-color: #f1f1f1 !important;
+    color: white !important;
+    background-color: #616161 !important;
   }
   .w3-dark-grey,
   .w3-hover-dark-grey:hover,
