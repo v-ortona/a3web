@@ -1620,3 +1620,21 @@ html {
     border-color: #e7ffff !important;
   }
   .fix {padding:128px 16px}
+
+  .displaynone {display:none}
+
+  .padding48{padding:48px}
+
+  .padding28x48{padding: 28px 48px}
+
+  .padding128x16{padding: 128px 16px}
+
+  .margin64{margin-top: 64px}
+
+  .responsive100p {width:100%}
+
+  .responsive90p {width:90%}
+
+  .responsive85p {width:85%}
+
+  .responsive75p {width:75%}
