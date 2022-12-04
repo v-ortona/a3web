@@ -1661,6 +1661,7 @@ body, html {
 
 .responsive75p {width:75%}
 
+/* start of slideshow css source:https://www.w3schools.com/howto/howto_js_slideshow_gallery.asp*/
 * {
   box-sizing: border-box;
 }
@@ -1747,3 +1748,4 @@ body, html {
 .demo:hover {
   opacity: 1;
 }
+/* end of slideshow css src:https://www.w3schools.com/howto/howto_js_slideshow_gallery.asp/*

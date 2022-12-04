@@ -1,4 +1,4 @@
-
+/* slideshow javasrcipt start src:https://www.w3schools.com/howto/howto_js_slideshow_gallery.asp */
 let slideIndex = 1;
 showSlides(slideIndex);
 
@@ -29,3 +29,4 @@ function showSlides(n) {
   dots[slideIndex-1].className += " active";
   captionText.innerHTML = dots[slideIndex-1].alt;
 }
+/* slideshow javescript end src:https://www.w3schools.com/howto/howto_js_slideshow_gallery.asp */
