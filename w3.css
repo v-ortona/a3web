@@ -1621,20 +1621,40 @@ html {
   }
   .fix {padding:128px 16px}
 
-  .displaynone {display:none}
+body,h1,h2,h3,h4,h5,h6 {font-family: "Raleway", sans-serif}
 
-  .padding48{padding:48px}
+body, html {
+  height: 100%;
+  line-height: 1.8;
+}
 
-  .padding28x48{padding: 28px 48px}
+.bgimg-1 {
+  background-position: center;
+  background-size: cover;
+  background-image: url("/w3images/mac.jpg");
+  min-height: 100%;
+}
 
-  .padding128x16{padding: 128px 16px}
+.w3-bar .w3-button {
+  padding: 16px;
+}
 
-  .margin64{margin-top: 64px}
+.nonedisplay {display:none}
 
-  .responsive100p {width:100%}
+.displaynone {display:none}
 
-  .responsive90p {width:90%}
+.padding48{padding:48px}
 
-  .responsive85p {width:85%}
+.padding28x48{padding: 28px 48px}
 
-  .responsive75p {width:75%}
+.padding128x16{padding: 128px 16px}
+
+.margin64{margin-top: 64px}
+
+.responsive100p {width:100%}
+
+.responsive90p {width:90%}
+
+.responsive85p {width:85%}
+
+.responsive75p {width:75%}
