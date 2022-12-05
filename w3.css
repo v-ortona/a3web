@@ -1632,7 +1632,7 @@ body, html {
 .bgimg-1 {
   background-position: center;
   background-size: cover;
-  background-image: url("Images/fire.jpg");
+  background-image: url("Images/GV1TF4Big.png");
   min-height: 100%;
 }
 
@@ -1758,3 +1758,5 @@ body, html {
 .backgroundgrey {background-color: gray;}
 
 .width100 {width: 100%;}
+
+.black {color:black}
