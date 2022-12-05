@@ -1632,7 +1632,7 @@ body, html {
 .bgimg-1 {
   background-position: center;
   background-size: cover;
-  background-image: url("Images/GV1TF4Big.png");
+  background-image: url("../Images/GV1TF4Big.png");
   min-height: 100%;
 }
 
