@@ -1751,3 +1751,5 @@ body, html {
 /* end of slideshow css src:https://www.w3schools.com/howto/howto_js_slideshow_gallery.asp*/
 
 .marginfix {margin-top:0px;}
+
+.nounderline {text-decoration: none;}
