@@ -701,12 +701,12 @@ html {
   .w3-show-inline-block {
     display: inline-block !important;
   }
-  @media (max-width: 1205px) {
+  @media (max-width: 1200px) {
     .w3-auto {
       max-width: 95%;
     }
   }
-  @media (max-width: 1036px) {
+  @media (max-width: 1320px) {
     .w3-modal-content {
       margin: 0 10px;
       width: auto !important;
@@ -747,7 +747,7 @@ html {
       padding-top: 10px;
     }
   }
-  @media (min-width: 993px) {
+  @media (min-width: 1320px) {
     .w3-modal-content {
       width: 900px;
     }
@@ -758,7 +758,7 @@ html {
       display: block !important;
     }
   }
-  @media (max-width: 1000px) and (min-width: 1000px) {
+  @media (max-width: 1800px) and (min-width: 1700px) {
     .w3-hide-medium {
       display: none !important;
     }
