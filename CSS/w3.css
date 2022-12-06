@@ -706,7 +706,7 @@ html {
       max-width: 95%;
     }
   }
-  @media (max-width: 600px) {
+  @media (max-width: 1036px) {
     .w3-modal-content {
       margin: 0 10px;
       width: auto !important;
@@ -744,7 +744,7 @@ html {
       width: 500px;
     }
     .w3-modal {
-      padding-top: 50px;
+      padding-top: 10px;
     }
   }
   @media (min-width: 993px) {
@@ -758,7 +758,7 @@ html {
       display: block !important;
     }
   }
-  @media (max-width: 992px) and (min-width: 601px) {
+  @media (max-width: 1000px) and (min-width: 1000px) {
     .w3-hide-medium {
       display: none !important;
     }
@@ -1761,4 +1761,4 @@ body, html {
 
 .black {color:black}
 
-.margin-top {margin-top: 10%;}
+.margin-top {margin-top: 1%;}
