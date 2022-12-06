@@ -1620,7 +1620,7 @@ html {
   .w3-hover-border-pale-blue:hover {
     border-color: #e7ffff !important;
   }
-  .fix {padding:128px 16px}
+  .fix {padding:120px 80px 7px 30px}
 
 body,h1,h2,h3,h4,h5,h6 {font-family: "Raleway", sans-serif}
 
