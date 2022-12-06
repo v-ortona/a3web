@@ -45,58 +45,69 @@
   <a href="ContactUS.html" onclick="w3_close()" class="w3-bar-item w3-button">CONTACT</a>
 </nav>
 <!-- Jordan End -->
-<!-- About Section -->
-<div class="w3-container padding128x16">
-    <h3 class="w3-center">ABOUT THE COMPANY</h3>
-    <p class="w3-center w3-large">Key features of our company</p>
-    <div class="w3-row-padding w3-center margin64">
-      <div class="w3-quarter">
-        <i class="fa fa-desktop w3-margin-bottom w3-jumbo w3-center"></i>
-        <p class="w3-large">Programming</p>
-        <p>Our GIS expertise includes a proficiency in many coding languages. Such as Python, HTML, CSS, Javascript, SQL, and many more.</p>
+<!-- Skills Section -->
+<div class="w3-container w3-light-grey w3-padding-64 margin-top">
+    <div class="w3-row-padding">
+      <div class="w3-col m6">
+        <h3>Our Skills.</h3>
+        <p>We are on the cutting edge of Geographic Informations Systems.</p>
+        <p>Our expertise allows us to deliver cartography, spatial analysis, and remote sensing solutions to a standard at the height of the indsutry.</p>
       </div>
-      <div class="w3-quarter">
-        <i class="fa fa-heart w3-margin-bottom w3-jumbo"></i>
-        <p class="w3-large">Passion</p>
-        <p>In addition to our experience and know how, you can be confident that a Bungi Consultant is passionate to deliver you a product of quality.</p>
-      </div>
-      <div class="w3-quarter">
-        <i class="fa fa-diamond w3-margin-bottom w3-jumbo"></i>
-        <p class="w3-large">Spatial Aptitude</p>
-        <p>Proficiency in geodesy and mathematics are crucial to GIS. When you work with a Bungus Consultant you know you are getting an expert in these fields.</p>
-      </div>
-      <div class="w3-quarter">
-        <i class="fa fa-cog w3-margin-bottom w3-jumbo"></i>
-        <p class="w3-large">Support</p>
-        <p>With our wide array of skills we are willing to do whatever it takes to get the job done. If you have a problem that needs a spatial solution you can be confident that a Bungi Consultant will solve it efficiently.</p>
+      <div class="w3-col m6">
+        <p class="w3-wide"><i class="fa fa-camera w3-margin-right"></i>Remote Sensing</p>
+        <div class="w3-grey">
+          <div class="w3-container w3-dark-grey w3-center" class="responsive90p"></div>
+        </div>
+        <p class="w3-wide"><i class="fa fa-desktop w3-margin-right"></i>Computer Programming</p>
+        <div class="w3-grey">
+          <div class="w3-container w3-dark-grey w3-center" class="responsive85p"></div>
+        </div>
+        <p class="w3-wide"><i class="fa fa-photo w3-margin-right"></i>Cartography</p>
+        <div class="w3-grey">
+          <div class="w3-container w3-dark-grey w3-center" class="responsive75p"></div>
+        </div>
       </div>
     </div>
   </div>
-
+  
+  <!-- Footer -->
+  <footer class="w3-center w3-black w3-padding-64">
+    <a href="#home" class="w3-button w3-light-grey"><i class="fa fa-arrow-up w3-margin-right"></i>To the top</a>
+    <div class="w3-xlarge w3-section">
+      <i class="fa fa-facebook-official w3-hover-opacity"></i>
+      <i class="fa fa-instagram w3-hover-opacity"></i>
+      <i class="fa fa-snapchat w3-hover-opacity"></i>
+      <i class="fa fa-pinterest-p w3-hover-opacity"></i>
+      <i class="fa fa-twitter w3-hover-opacity"></i>
+      <i class="fa fa-linkedin w3-hover-opacity"></i>
+    </div>
+    <p>Powered by <a href="https://www.w3schools.com/w3css/default.asp" title="W3.CSS" target="_blank" class="w3-hover-text-green">w3.css</a></p>
+  </footer>
+   
   <script>
-    // Modal Image Gallery
-    function onClick(element) {
-      document.getElementById("img01").src = element.src;
-      document.getElementById("modal01").style.display = "block";
-      var captionText = document.getElementById("caption");
-      captionText.innerHTML = element.alt;
+  // Modal Image Gallery
+  function onClick(element) {
+    document.getElementById("img01").src = element.src;
+    document.getElementById("modal01").style.display = "block";
+    var captionText = document.getElementById("caption");
+    captionText.innerHTML = element.alt;
+  }
+  
+  
+  // Toggle between showing and hiding the sidebar when clicking the menu icon
+  var mySidebar = document.getElementById("mySidebar");
+  
+  function w3_open() {
+    if (mySidebar.style.display === 'block') {
+      mySidebar.style.display = 'none';
+    } else {
+      mySidebar.style.display = 'block';
     }
-    
-    
-    // Toggle between showing and hiding the sidebar when clicking the menu icon
-    var mySidebar = document.getElementById("mySidebar");
-    
-    function w3_open() {
-      if (mySidebar.style.display === 'block') {
-        mySidebar.style.display = 'none';
-      } else {
-        mySidebar.style.display = 'block';
-      }
-    }
-    
-    // Close the sidebar with the close button
-    function w3_close() {
-        mySidebar.style.display = "none";
-    }
-    </script>
-    
+  }
+  
+  // Close the sidebar with the close button
+  function w3_close() {
+      mySidebar.style.display = "none";
+  }
+  </script>
+  
