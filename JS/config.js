@@ -113,7 +113,7 @@ var config = {
             alignment: 'fully',
             hidden: false,
             title: 'Francis Soriano',
-            image: 'Images/Jordan.jpg',
+            image: 'Images/Francis.jpg',
             description: 'Project Manager',
             location: {
                 center: [55.1438121,25.1003766],
