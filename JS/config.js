@@ -20,7 +20,7 @@ var config = {
             alignment: 'left',
             hidden: false,
             title: 'Fleming College',
-            image: 'images/fleming.png',
+            image: 'Images/fleming.png',
             description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
             location: {
                 center: [-78.7408268,44.3410783],
@@ -50,7 +50,7 @@ var config = {
             alignment: 'right',
             hidden: false,
             title: 'Samuel Pethick',
-            image: 'images/sam.jpg',
+            image: 'Images/sam.jpg',
             description: 'Official Cartographer',
             location: {
                 center: [-78.7712805, 44.3545731],
@@ -75,7 +75,7 @@ var config = {
             alignment: 'left',
             hidden: false,
             title: 'Jordan Tishler',
-            image: 'images/Jordan.jpg',
+            image: 'Images/Jordan.jpg',
             description: 'Spatial Analyst',
             location: {
                 center: [-80.1211384, 43.9121321],
@@ -94,7 +94,7 @@ var config = {
             alignment: 'fully',
             hidden: false,
             title: 'Vince Ortona',
-            image: 'images/vince.jpg',
+            image: 'Images/vince.jpg',
             description: 'Programmer',
             location: {
                 center: [-73.8519554,45.5590971],
@@ -113,7 +113,7 @@ var config = {
             alignment: 'fully',
             hidden: false,
             title: 'Francis Soriano',
-            image: 'images/Jordan.jpg',
+            image: 'Images/Jordan.jpg',
             description: 'Project Manager',
             location: {
                 center: [55.1438121,25.1003766],
