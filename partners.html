@@ -48,3 +48,58 @@
   <a href="ContactUS.html" onclick="w3_close()" class="w3-bar-item w3-button">CONTACT</a>
 </nav>
 <!-- Jordan End -->
+
+<!-- Partners Section -->
+<div class="w3-container padding128x16 w3-text-white">
+  <h3 class="w3-center">SOME OF OUR PARTNERS</h3>
+  <p class="w3-center w3-large">Our partners help us achieve our goal of creating immersive experiences for our clients.</p>
+  <div class="w3-row-padding w3-center margin64">
+    <div class="w3-quarter">
+      <i class="fa fa-map w3-margin-bottom w3-jumbo w3-center"></i>
+      <p class="w3-large">Fleming College</p>
+      <p>The School of Environmental and Natural Resources Science (SENRS) of the Sir Sanford Fleming College in Lindsay has provided us the foundations to begin our journey in the geospatial community. The Frost Campus houses GIS educators that leave their mark on the world.</p>
+    </div>
+    <div class="w3-quarter">
+      <i class="fa fa-stack-overflow w3-margin-bottom w3-jumbo"></i>
+      <p class="w3-large">Esri</p>
+      <p>Esri is a trailblazer in the development of geographic information systems tools. With the development of ArcGIS Pro and other Esri tools such as Enterprise ArcGIS and Story Maps, visual communication through maps have never been easier. Esri's commitment to advancing GIS technology continues to leap geoinformatics forward.</p>
+    </div>
+    <div class="w3-quarter">
+      <i class="fa-globe w3-margin-bottom w3-jumbo"></i>
+      <p class="w3-large">Spatial Aptitude</p>
+      <p>Proficiency in geodesy and mathematics are crucial to GIS. When you work with a Bungus Consultant you know you are getting an expert in these fields.</p>
+    </div>
+    <div class="w3-quarter">
+      <i class="fa fa-cog w3-margin-bottom w3-jumbo"></i>
+      <p class="w3-large">Support</p>
+      <p>With our wide array of skills we are willing to do whatever it takes to get the job done. If you have a problem that needs a spatial solution you can be confident that a Bungi Consultant will solve it efficiently.</p>
+    </div>
+  </div>
+</div>
+
+<script>
+  // Modal Image Gallery
+  function onClick(element) {
+    document.getElementById("img01").src = element.src;
+    document.getElementById("modal01").style.display = "block";
+    var captionText = document.getElementById("caption");
+    captionText.innerHTML = element.alt;
+  }
+  
+  
+  // Toggle between showing and hiding the sidebar when clicking the menu icon
+  var mySidebar = document.getElementById("mySidebar");
+  
+  function w3_open() {
+    if (mySidebar.style.display === 'block') {
+      mySidebar.style.display = 'none';
+    } else {
+      mySidebar.style.display = 'block';
+    }
+  }
+  
+  // Close the sidebar with the close button
+  function w3_close() {
+      mySidebar.style.display = "none";
+  }
+  </script>
