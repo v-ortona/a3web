@@ -37,7 +37,9 @@ function currentSlide(n) {
 
 /* slideshow javescript end src:https://www.w3schools.com/howto/howto_js_slideshow_gallery.asp */
 /* Sam End */
-//config needed for mapbox/teams page
+
+/* Vince start */
+//config needed for mapbox/teams pagec src: https://github.com/mapbox/storytelling
 var config = {
   style: 'mapbox://styles/mapbox/satellite-streets-v12',
   accessToken: 'pk.eyJ1Ijoidm9ydG9uYSIsImEiOiJjbGJkNmVncWUwa2VtM3dueXc2OGdnNDdsIn0.gqxoAbC0xNvE06ko4sCGjQ',
@@ -170,4 +172,4 @@ var config = {
       }
   ]
 };
-
+/*Vince end */

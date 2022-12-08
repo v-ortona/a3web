@@ -358,9 +358,11 @@ a {
   padding-left: 16px;
 }
 
+/*Vince start*/
 .w3-btn,
 .w3-button {
   border: none;
+  border-radius: 10px;
   display: inline-block;
   padding: 8px 16px;
   vertical-align: middle;
@@ -372,6 +374,17 @@ a {
   cursor: pointer;
   white-space: nowrap;
 }
+
+.services-button {
+  border-radius: 10px;
+  width: 300px;
+}
+.services-button:hover {
+  background-color: grey;
+  color: white;
+}
+
+/*Vince end*/
 
 .w3-btn:hover {
   box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
@@ -2196,6 +2209,7 @@ html {
   clear: both;
 }
 
+/* Vince start MAPBOX code src: https://github.com/mapbox/storytelling*/
 .paddel {padding-top: 30px;}
 
         body {
@@ -2291,6 +2305,7 @@ html {
             opacity: 0.9;
         }
 
+/* modal box code src: https://www.w3schools.com/howto/howto_css_modals.asp */
 .modal {
   display: none; /* Hidden by default */
   position: fixed; /* Stay in place */
@@ -2350,3 +2365,4 @@ html {
         .mapboxgl-canvas-container.mapboxgl-touch-zoom-rotate.mapboxgl-touch-drag-pan .mapboxgl-canvas {
             touch-action: unset;
         }
+/* Vince code end */
