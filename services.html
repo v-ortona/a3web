@@ -8,6 +8,7 @@
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <script  src="JS/Javascript.js"> </script>
+
 </head>
 <body class = "backgroundgrey">
 <!--Jordan start-->
@@ -56,30 +57,38 @@
         <p>Our geospatial services provide valuable insights into complex spatial data that can help inform your decision-making. Our team of experienced GIS professionals are experts in using advanced software to collect, analyze, and visualize spatial data. With our services, you can gain a better understanding of your data and make more informed decisions for your business or organization.</p>
       </div>
       <div class="w3-col m6">
-        <p class="w3-wide"><i class="fa fa-camera w3-margin-right"></i>Remote Sensing</p>
+        <button id="remotesensing" class="w3-wide" onclick="openModel(this.id)"><i class="fa fa-camera w3-margin-right"></i>Remote Sensing</button>
         <div class="w3-grey">
           <div class="w3-container w3-dark-grey w3-center"></div>
         </div>
-        <p class="w3-wide"><i class="fa fa-usb w3-margin-right"></i>Computer Programming</p>
+        <button id="computerprogramming" class="w3-wide" onclick="openModel(this.id)"><i class="fa fa-usb w3-margin-right"></i>Computer Programming</button>
         <div class="w3-grey">
           <div class="w3-container w3-dark-grey w3-center"></div>
         </div>
-        <p class="w3-wide"><i class="fa fa-photo w3-margin-right"></i>Cartography</p>
+        <button id="cartography" class="w3-wide" onclick="openModel(this.id)"><i class="fa fa-photo w3-margin-right"></i>Cartography</button>
         <div class="w3-grey">
           <div class="w3-container w3-dark-grey w3-center"></div>
           <div class="w3-container w3-dark-grey w3-center"></div>
         </div>
-        <p class="w3-wide"><i class="fa fa-window-restore w3-margin-right"></i>Website Creation</p>
+        <button id="websitecreation" class="w3-wide" onclick="openModel(this.id)"><i class="fa fa-window-restore w3-margin-right"></i>Website Creation</button>
         <div class="w3-grey">
           <div class="w3-container w3-dark-grey w3-center"></div>
         </div>
-        <p class="w3-wide"><i class="fa fa-map-marker w3-margin-right"></i>Cad Mapping</p>
+        <button id="cadmapping" class="w3-wide" onclick="openModel(this.id)"><i class="fa fa-map-marker w3-margin-right"></i>Cad Mapping</button>
         <div class="w3-grey">
           <div class="w3-container w3-dark-grey w3-center"></div>          
         </div>
-        <p class="w3-wide"><i class="fa fa-file-excel-o w3-margin-right"></i>Data Analysis</p>
+        <button id="dataanalysis" class="w3-wide" onclick="openModel(this.id)"><i class="fa fa-file-excel-o w3-margin-right"></i>Data Analysis</button>
         <div class="w3-grey">
           <div class="w3-container w3-dark-grey w3-center"></div>
+        </div>
+         <!-- The Modal -->
+         <div id="myModal" class="w3-modal">
+          <!-- Modal content -->
+          <div class=".w3-modal-content modal-content">
+            <span class="close">&times;</span>
+            <p id="modal-text">asdf</p>
+          </div>
         </div>
       </div>
     </div>
@@ -124,6 +133,49 @@
   function w3_close() {
       mySidebar.style.display = "none";
   }
+
+      // Get the modal
+    var modal = document.getElementById("myModal");
+
+    // Get the <span> element that closes the modal
+    var span = document.getElementsByClassName("close")[0];
+
+    // When the user clicks the button, open the modal 
+    function openModel(id) {
+      console.log(id)
+      if(id == "remotesensing") {
+        document.getElementById("modal-text").innerHTML = "Remote sensing: We have extensive experience in working with remote sensing data and can help you extract information from satellite and aerial imagery. From land use and land cover mapping to vegetation analysis and digital elevation modeling, we can help you unlock the potential of your remote sensing data."
+      }
+      else if(id == "computerprogramming") {
+        document.getElementById("modal-text").innerHTML = "Custom GIS and remote sensing solutions: We can develop custom GIS and remote sensing applications and tools to meet your specific needs. Whether you need a specialized tool for data analysis, map creation, or spatial data management, we can build it for you."
+      }
+      else if(id == "cartography") {
+        document.getElementById("modal-text").innerHTML = "Map creation and visualization: We specialize in creating high-quality maps that accurately represent your data and effectively communicate your message. From simple static maps to interactive web maps, we can help you create the perfect visualization for your project."
+      }
+      else if(id == "websitecreation") {
+        document.getElementById("modal-text").innerHTML = "Website development: We have extensive experience in creating professional, user-friendly websites that are tailored to our clients' needs. Whether you need a simple informative website or a complex web application, we can help you build it."
+      }
+      else if(id == "cadmapping") {
+        document.getElementById("modal-text").innerHTML = "CAD mapping: We specialize in creating high-quality maps and other spatial data products using CAD software. From simple site plans to complex topographic maps, we can help you create the perfect representation of your data."
+      }
+      else if(id == "dataanalysis") {
+        document.getElementById("modal-text").innerHTML = "GIS data analysis: We use advanced GIS software and techniques to analyze spatial data and extract valuable insights. Whether you need to identify patterns, trends, or relationships in your data, we can help you make sense of it all."
+      }
+      modal.style.display = "block";
+    }
+
+    // When the user clicks on <span> (x), close the modal
+    span.onclick = function() {
+      modal.style.display = "none";
+    }
+
+    // When the user clicks anywhere outside of the modal, close it
+    window.onclick = function(event) {
+      if (event.target == modal) {
+        modal.style.display = "none";
+      }
+    }
+
   </script>
 </body>
 </html>
