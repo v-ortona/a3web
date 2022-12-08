@@ -1,4 +1,5 @@
 /* slideshow javasrcipt start src:https://www.w3schools.com/howto/howto_js_slideshow_gallery.asp */
+/* Sam Start */
 function showSlides(n) {
   let i;
   let slides = document.getElementsByClassName("mySlides");
@@ -35,7 +36,7 @@ function currentSlide(n) {
 
 
 /* slideshow javescript end src:https://www.w3schools.com/howto/howto_js_slideshow_gallery.asp */
-
+/* Sam End */
 //config needed for mapbox/teams page
 var config = {
   style: 'mapbox://styles/mapbox/satellite-streets-v12',
