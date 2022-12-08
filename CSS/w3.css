@@ -2365,4 +2365,8 @@ html {
         .mapboxgl-canvas-container.mapboxgl-touch-zoom-rotate.mapboxgl-touch-drag-pan .mapboxgl-canvas {
             touch-action: unset;
         }
+
+.main-title {
+  background-color: rgba(255, 255, 255, 0.6);
+}
 /* Vince code end */
