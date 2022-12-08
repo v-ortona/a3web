@@ -1,3 +1,4 @@
+/* slideshow javasrcipt start src:https://www.w3schools.com/howto/howto_js_slideshow_gallery.asp */
 function showSlides(n) {
   let i;
   let slides = document.getElementsByClassName("mySlides");
@@ -16,7 +17,7 @@ function showSlides(n) {
   captionText.innerHTML = dots[slideIndex-1].alt;
 }
 
-/* slideshow javasrcipt start src:https://www.w3schools.com/howto/howto_js_slideshow_gallery.asp */
+
 let slideIndex = 1;
 // showSlides(slideIndex);
 
