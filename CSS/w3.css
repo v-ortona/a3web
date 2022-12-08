@@ -2041,7 +2041,7 @@ html {
 .w3-bar .w3-button {
   padding: 16px;
 }
-
+/* Sam Start, The following section contains CSS Classes that we made to replace in line styles from the template */
 .nonedisplay {
   display: none
 }
@@ -2085,7 +2085,7 @@ html {
 .responsive75p {
   width: 75%
 }
-
+/* Sam Continued /*
 /* start of slideshow css source:https://www.w3schools.com/howto/howto_js_slideshow_gallery.asp*/
 * {
   box-sizing: border-box;
@@ -2176,6 +2176,9 @@ html {
 
 /* end of slideshow css src:https://www.w3schools.com/howto/howto_js_slideshow_gallery.asp*/
 
+/* Sam End */
+
+/* Jordan Start */
 .marginfix {
   margin-top: 0px;
 }
@@ -2208,6 +2211,7 @@ html {
 .clear {
   clear: both;
 }
+/* Jordan End */
 
 /* Vince start MAPBOX code src: https://github.com/mapbox/storytelling*/
 .paddel {padding-top: 30px;}
